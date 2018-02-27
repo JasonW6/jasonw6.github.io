@@ -1,0 +1,79 @@
+/* Apply this style to the HTML tag*/
+html {
+    background: url("https://trello-backgrounds.s3.amazonaws.com/SharedBackground/2560x1638/99509a848376ccbf3d86e35c138cba3a/photo-1511861593747-f21108fc3427") bottom center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+body {
+    /* force Horizontal Scroll Bar */
+    white-space: nowrap;
+    font-family: 'Raleway', sans-serif;
+}
+h1 {
+    color: #fff;
+}
+/*All divs that have a class "trello-list" */
+div.trello-list {
+
+    display: inline-block;
+    width: 300px;
+    margin-right: 10px;
+    vertical-align: top;
+
+    /*look and Feel*/
+    background-color:#ddd;
+    opacity: .7;
+    border-radius: 2px 3px;
+}
+/* targets any H2 inside of a <div class="trello-list"> tag */
+div.trello-list h2 {
+    margin: 8px 3px;
+}
+
+div.trello-list ol {
+    margin: 0;
+    padding: 0;
+}
+
+div.trello-list li {
+    /* look and Feel */
+    list-style: none;
+    background-color: #fff;
+    
+
+    margin-bottom: 10px;
+    padding: 5px;
+}
+div.trello-list li:hover,
+div.trello-list a:hover {
+    background-color: #ccc;
+}
+div.trello-list a {
+
+    display: block;
+
+    padding: 0px 0px 5px 5px;  /*top right bottom left*/
+
+    text-decoration: none;
+    color: #888
+
+}
+
+/* Scrool bar*/
+body::-webkit-scrollbar {
+    width: 10px;
+}
+
+body::-webkit-scrollbar-track   {
+    background: blue;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: lightblue;
+}
+
+body::-webkit-scrollbar:hover {
+    background: darkblue;
+}

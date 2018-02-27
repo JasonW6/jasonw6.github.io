@@ -1,0 +1,54 @@
+html {
+    background-color: black;
+    background: url("https://s-media-cache-ak0.pinimg.com/originals/47/c1/d6/47c1d6d0c1df22c4b203b298f175ee43.jpg") center top;
+    background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        
+}
+body {
+    
+    
+}
+
+div.bio{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+    text-align: center;
+    color: white;
+    background-color: rgb(17, 30, 148);
+    opacity: .7;
+
+}
+div.bio h1:hover,
+div.bio h2:hover,
+div.bio p:hover {
+opacity: 1;
+background-color: rgb(14, 7, 104);
+}
+div.sidenav{
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    background-color:  rgb(17, 30, 148);
+    opacity: .7;
+    
+}
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
+    padding-bottom: 75px;
+}
+.sidenav a:hover{
+    opacity: 1;
+    background-color:  rgb(14, 7, 104);
+}
+
+
+    
+
